@@ -1,4 +1,4 @@
-# A Machine Learning Project on Predicting the price of the laptop given its features
+# A Machine Learning Project for Predicting the price of the laptop given its features
 
 ## Data Cleaning, Preprocessing and Basic Data Analysis
 
