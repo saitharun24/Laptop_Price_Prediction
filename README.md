@@ -1,3 +1,5 @@
+# A Machine Learning Project on Predicting the price of the laptop given its features
+
 ## Data Cleaning, Preprocessing and Basic Data Analysis
 
 Machine Learning or Data Analysis is performed on the data obtained from the various interactions happening around us.
