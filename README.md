@@ -198,19 +198,6 @@ df.describe(include=['object', 'int64', 'float64'])
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -562,7 +549,7 @@ df['Company'].value_counts()
 
 
     
-![png](output_17_1.png)
+![output_17_1](https://user-images.githubusercontent.com/50414959/118451934-5b5cc480-b713-11eb-950b-b59718d2ee84.png)
     
 
 
@@ -603,7 +590,7 @@ df['Company'].value_counts(normalize = True)*100
 
 
     
-![png](output_18_1.png)
+![output_18_1](https://user-images.githubusercontent.com/50414959/118451972-6283d280-b713-11eb-9184-c7232a5031dd.png)
     
 
 
@@ -651,7 +638,7 @@ df['TypeName'].value_counts()
 
 
     
-![png](output_22_1.png)
+![output_22_1](https://user-images.githubusercontent.com/50414959/118451995-6879b380-b713-11eb-987c-a4186831600f.png)
     
 
 
@@ -679,7 +666,7 @@ df['TypeName'].value_counts(normalize = True)*100
 
 
     
-![png](output_23_1.png)
+![output_23_1](https://user-images.githubusercontent.com/50414959/118452014-6dd6fe00-b713-11eb-8d3a-4329d2101f7a.png)
     
 
 
@@ -739,7 +726,7 @@ df['Inches'].value_counts()
 
 
     
-![png](output_27_1.png)
+![output_27_1](https://user-images.githubusercontent.com/50414959/118452036-729bb200-b713-11eb-9e17-b4cc259c6a1f.png)
     
 
 
@@ -779,7 +766,7 @@ df['Inches'].value_counts(normalize = True)*100
 
 
     
-![png](output_28_1.png)
+![output_28_1](https://user-images.githubusercontent.com/50414959/118452056-76c7cf80-b713-11eb-9873-9ef9a128ba6f.png)
     
 
 
@@ -848,19 +835,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1020,7 +994,7 @@ Screen_withoutNone['Screen Type'].value_counts()
 
 
     
-![png](output_34_2.png)
+![output_34_2](https://user-images.githubusercontent.com/50414959/118452132-82b39180-b713-11eb-95c2-5a22ed3291aa.png)
     
 
 
@@ -1052,7 +1026,7 @@ Screen_withoutNone['Screen Type'].value_counts(normalize = True)*100
 
 
     
-![png](output_35_1.png)
+![output_35_1](https://user-images.githubusercontent.com/50414959/118452183-8c3cf980-b713-11eb-815a-dfe44d79f5e2.png)
     
 
 
@@ -1086,7 +1060,7 @@ df['TouchScreen'].value_counts(normalize = True)*100
 
 
     
-![png](output_37_2.png)
+![output_37_2](https://user-images.githubusercontent.com/50414959/118452216-9232da80-b713-11eb-975b-3448a8a6692c.png)
     
 
 
@@ -1164,19 +1138,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1346,7 +1307,7 @@ df['Cpu Vendor'].value_counts()
 
 
     
-![png](output_43_1.png)
+![output_43_1](https://user-images.githubusercontent.com/50414959/118452278-9eb73300-b713-11eb-8faa-922e4cb45156.png)
     
 
 
@@ -1371,7 +1332,7 @@ df['Cpu Vendor'].value_counts(normalize = True)*100
 
 
     
-![png](output_44_1.png)
+![output_44_1](https://user-images.githubusercontent.com/50414959/118452303-a5de4100-b713-11eb-8ef6-aef34e35d303.png)
     
 
 
@@ -1412,7 +1373,7 @@ df['Cpu Type'].value_counts()
 
 
     
-![png](output_46_1.png)
+![output_46_1](https://user-images.githubusercontent.com/50414959/118452326-aaa2f500-b713-11eb-9416-9a16ed683aa2.png)
     
 
 
@@ -1449,7 +1410,7 @@ df['Cpu Type'].value_counts(normalize = True)*100
 
 
     
-![png](output_47_1.png)
+![output_47_1](https://user-images.githubusercontent.com/50414959/118452351-af67a900-b713-11eb-919f-c6eb43976c5e.png)
     
 
 
@@ -1507,7 +1468,7 @@ df['Cpu Series'].value_counts()
 
 
     
-![png](output_49_1.png)
+![output_49_1](https://user-images.githubusercontent.com/50414959/118452365-b393c680-b713-11eb-9406-431a5d96be44.png)
     
 
 
@@ -1549,7 +1510,7 @@ Screen_withoutNone['Cpu Model'].value_counts()
 
 
     
-![png](output_51_2.png)
+![output_51_2](https://user-images.githubusercontent.com/50414959/118452394-ba223e00-b713-11eb-9cef-b0db93b67a36.png)
     
 
 
@@ -1603,7 +1564,7 @@ print(Cpu_speed)
 
 
     
-![png](output_55_0.png)
+![output_55_0](https://user-images.githubusercontent.com/50414959/118452410-c0181f00-b713-11eb-9af6-44d5f0b7e4c9.png)
     
 
 
@@ -1658,7 +1619,7 @@ df['Ram'].value_counts()
 
 
     
-![png](output_59_1.png)
+![output_59_1](https://user-images.githubusercontent.com/50414959/118452423-c4443c80-b713-11eb-81b8-6007ea1aad41.png)
     
 
 
@@ -1689,7 +1650,7 @@ df['Ram'].value_counts(normalize = True)*100
 
 
     
-![png](output_60_1.png)
+![output_60_1](https://user-images.githubusercontent.com/50414959/118452438-c7d7c380-b713-11eb-9e43-8bab068c5f13.png)
     
 
 
@@ -1766,19 +1727,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1978,7 +1926,7 @@ df['Primary Memory (GB)'].value_counts()
 
 
     
-![png](output_67_1.png)
+![output_67_1](https://user-images.githubusercontent.com/50414959/118452490-d4f4b280-b713-11eb-8154-19be9814f4ac.png)
     
 
 
@@ -2007,7 +1955,7 @@ df['Primary Memory Type'].value_counts()
 
 
     
-![png](output_68_1.png)
+![output_68_1](https://user-images.githubusercontent.com/50414959/118452501-d920d000-b713-11eb-9bd3-e34f2d64c7bc.png)
     
 
 
@@ -2035,7 +1983,7 @@ Secondary_memory_withoutNone.value_counts()
 
 
     
-![png](output_69_1.png)
+![output_69_1](https://user-images.githubusercontent.com/50414959/118452527-df16b100-b713-11eb-9793-e19b2cdf6fa4.png)
     
 
 
@@ -2060,7 +2008,7 @@ df['Secondary Memory Type'].value_counts()
 
 
     
-![png](output_70_1.png)
+![output_70_1](https://user-images.githubusercontent.com/50414959/118452544-e342ce80-b713-11eb-8a78-7c2b10d58582.png)
     
 
 
@@ -2100,7 +2048,7 @@ df['Gpu Vendor'].value_counts()
 
 
     
-![png](output_74_1.png)
+![output_74_1](https://user-images.githubusercontent.com/50414959/118452563-e938af80-b713-11eb-92c1-9c29295dd1ef.png)
     
 
 
@@ -2126,7 +2074,7 @@ df['Gpu Vendor'].value_counts(normalize = True)*100
 
 
     
-![png](output_75_1.png)
+![output_75_1](https://user-images.githubusercontent.com/50414959/118452577-eccc3680-b713-11eb-88eb-51ea91c1d1c7.png)
     
 
 
@@ -2226,7 +2174,7 @@ df['OpSys'].value_counts()
 
 
     
-![png](output_81_1.png)
+![output_81_1](https://user-images.githubusercontent.com/50414959/118452615-f6559e80-b713-11eb-9010-7258480fcf7e.png)
     
 
 
@@ -2257,7 +2205,7 @@ df['OpSys'].value_counts(normalize = True)*100
 
 
     
-![png](output_82_1.png)
+![output_82_1](https://user-images.githubusercontent.com/50414959/118452642-fc4b7f80-b713-11eb-9143-38c09ed8bd1c.png)
     
 
 
@@ -2306,7 +2254,7 @@ print(Weights_count)
 
 
     
-![png](output_88_0.png)
+![output_88_0](https://user-images.githubusercontent.com/50414959/118452659-00779d00-b714-11eb-9b8f-9033e4483c93.png)
     
 
 
@@ -2335,7 +2283,7 @@ plt.show()
 
 
     
-![png](output_91_1.png)
+![output_91_1](https://user-images.githubusercontent.com/50414959/118452673-040b2400-b714-11eb-9531-e2e90e3cd5bd.png)
     
 
 
@@ -2363,7 +2311,7 @@ sns.barplot(x=df['TypeName'], y=df['Weight (Kg)']).set_title('Average Weight of 
 
 
     
-![png](output_95_1.png)
+![output_95_1](https://user-images.githubusercontent.com/50414959/118452695-079eab00-b714-11eb-8c5c-f59f7569085a.png)
     
 
 
@@ -2388,7 +2336,7 @@ sns.barplot(x=df['TypeName'], y=df['Price_euros']).set_title('Average Price of e
 
 
     
-![png](output_98_1.png)
+![output_98_1](https://user-images.githubusercontent.com/50414959/118452712-0a999b80-b714-11eb-9928-9460f061d3f2.png)
     
 
 
@@ -2434,7 +2382,7 @@ df.groupby('Company')['Price_euros'].mean()
 
 
     
-![png](output_101_1.png)
+![output_101_1](https://user-images.githubusercontent.com/50414959/118452723-0d948c00-b714-11eb-9063-cc95fadebe5f.png)
     
 
 
@@ -2463,7 +2411,7 @@ df.groupby('Gpu Vendor')['Price_euros'].mean()
 
 
     
-![png](output_104_1.png)
+![output_104_1](https://user-images.githubusercontent.com/50414959/118452739-12f1d680-b714-11eb-911d-3a6df06c0620.png)
     
 
 
@@ -2499,7 +2447,7 @@ Screen_withoutNone.groupby('Screen Type')['Price_euros'].mean()
 
 
     
-![png](output_107_1.png)
+![output_107_1](https://user-images.githubusercontent.com/50414959/118452755-16855d80-b714-11eb-9fb3-599b364d3266.png)
     
 
 
@@ -2533,7 +2481,7 @@ df.groupby('OpSys')['Price_euros'].mean()
 
 
     
-![png](output_110_1.png)
+![output_110_1](https://user-images.githubusercontent.com/50414959/118452773-1a18e480-b714-11eb-8a91-7dec6c80ef75.png)
     
 
 
@@ -2571,7 +2519,7 @@ plt.show()
 
 
     
-![png](output_113_1.png)
+![output_113_1](https://user-images.githubusercontent.com/50414959/118452786-1dac6b80-b714-11eb-968a-41ea8b674eda.png)
     
 
 
@@ -2602,19 +2550,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3008,19 +2943,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3405,19 +3327,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3622,7 +3531,7 @@ plt.show()
 
 
     
-![png](output_124_1.png)
+![output_124_1](https://user-images.githubusercontent.com/50414959/118452897-39b00d00-b714-11eb-8cc0-67bb3a66ebc6.png)
     
 
 
